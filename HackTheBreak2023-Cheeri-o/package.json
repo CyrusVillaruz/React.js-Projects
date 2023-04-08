@@ -1,0 +1,30 @@
+{
+  "name": "openai-quickstart-node",
+  "version": "0.1.0",
+  "homepage": "https://elsaho.github.io/hackthebreak23",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "docx": "^7.8.2",
+    "file-saver": "^2.0.5",
+    "gh-pages": "^5.0.0",
+    "jsdocx": "^0.4.5",
+    "next": "^13.1.1",
+    "openai": "^3.2.1",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-textarea-autosize": "^8.4.0",
+    "yarn": "^1.22.19"
+  },
+  "engines": {
+    "node": ">=14.6.0"
+  }
+}

@@ -1,0 +1,24 @@
+.container{
+  text-align: center;
+}
+
+/* Define styles for devices with a maximum width of 767px (e.g. mobile devices) */
+@media (max-width: 767px) {
+  /* Styles for small devices */
+  .textbox{
+    width: 320px;
+  }
+}
+
+/* Define styles for devices with a minimum width of 768px (e.g. desktop devices) */
+@media (min-width: 768px) {
+  /* Styles for larger devices */
+  .textbox{
+    width: 100%;
+  }
+}
+
+
+
+  
+  
